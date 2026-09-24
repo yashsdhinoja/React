@@ -31,7 +31,6 @@ class Lifecycle extends React.Component
         return null;
     }
 
-
     shouldComponentUpdate()
     {
         console.log('5. shouldComponentUpdate');
