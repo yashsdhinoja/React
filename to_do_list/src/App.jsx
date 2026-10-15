@@ -11,7 +11,7 @@ function App() {
     setTask(event.target.value);
   }
     tasks.map((item,idx) => {
-      if(text === item.text){
+      if(item === item.text){
         return {...item,completed:!item.completed}
       }
     });
